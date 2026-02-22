@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/bhard/Desktop/Lec 6 MLFLOW/MLFLOW-experiments/mlruns/3/models/m-b3dce07ffadf43a2bfbc8d4cae1381f5/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-b3dce07ffadf43a2bfbc8d4cae1381f5
+model_size_bytes: 17220
+model_uuid: m-b3dce07ffadf43a2bfbc8d4cae1381f5
+prompts: null
+run_id: ae324018bf6b4301942beab1886f9260
+utc_time_created: '2026-02-22 10:27:09.844805'
